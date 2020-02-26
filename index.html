@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dice Game</title>
+    <!-- <documentation at http://demos.jquerymobile.com/1.4.1/ > -->
+  
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Start of Home page -->
+    <div data-role="page"  id="home">
+            <!--  login page header -->
+            <div data-role="header" data-theme='b'>
+               <!-- helpful location   -->
+              <!-- https://demos.jquerymobile.com/1.2.0/docs/toolbars/docs-navbar.html -->
+
+                <h1>The Amazing Course Project!</h1>
+                <div data-role="navbar"  data-theme='c'>
+                    <ul>
+                      <li><a href="#home">home page</a></li>
+                      <li><a href="#page1">Page 1</a></li>
+                      <li><a href="#page2">Page 2</a></li>
+                      <li><a href="#page3">Page 3</a></li>
+                    </ul>
+                  </div><!-- /navbar -->
+               
+            </div>
+            <!--  login page content -->
+            <div data-role="content" data-theme='e'>
+               <h2> this project is great!</h2>
+            </div>
+              
+            <!--  login page footer -->
+            <div data-role="footer" data-theme='b'>
+                    <h1>Copyrigtht 2020 by Kurt Friedrich</h1>
+            </div>
+        </div>
+
+
+        <div data-role="page"  id="page1">
+            <!--  page1 page header -->
+            <div data-role="header" data-theme='b'>
+              <h1>The Amazing Course Project!</h1>
+              <div data-role="navbar"  data-theme='c'>
+                  <ul>
+                    <li><a href="#home">home page</a></li>
+                    <li><a href="#page1">Page 1</a></li>
+                    <li><a href="#page2">Page 2</a></li>
+                    <li><a href="#page3">Page 3</a></li>
+                  </ul>
+                </div><!-- /navbar -->
+          </div>
+            <!-- t page content -->
+            <div data-role="content" data-theme='e'>
+                Enter your first name <br />
+                <input type="text" value="" id="firstName" />
+                Enter your last name <br />
+                <input type="text" value="" id="lastName" />
+                <input type="button" value="Click To Create Account" id="buttonLogin" />
+            </div>
+              
+            <!--  newaccount page footer -->
+            <div data-role="footer" data-theme='b'>
+              <h1>Copyrigtht 2020 by Kurt Friedrich</h1>
+            </div>
+        </div>
+
+
+
+    <!-- Start of gamelost page -->
+    <div data-role="page"  id="page2">
+            <!--  gamelost page header -->
+            <div data-role="header" data-theme='b'>
+              <h1>The Amazing Course Project!</h1>
+              <div data-role="navbar"  data-theme='c'>
+                  <ul>
+                    <li><a href="#home">home page</a></li>
+                    <li><a href="#page1">Page 1</a></li>
+                    <li><a href="#page2">Page 2</a></li>
+                    <li><a href="#page3">Page 3</a></li>
+                  </ul>
+                </div><!-- /navbar -->
+          </div>
+            <!--  gamelost page content -->
+            <div data-role="content" data-theme='e'>
+              <p> I am on the 2nd page</p>
+              <div id="divUserlist"></div>
+            </div>
+              
+            <!--  gamelost page footer -->
+            <div data-role="footer" data-theme='b'>
+              <h1>Copyrigtht 2020 by Kurt Friedrich</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start of gamewon page -->
+    <div data-role="page"  id="page3">
+            <!--  gamewon page header -->
+            <div data-role="header" data-theme='b'>
+              <h1>The Amazing Course Project!</h1>
+              <div data-role="navbar"  data-theme='c'>
+                  <ul>
+                    <li><a href="#home">home page</a></li>
+                    <li><a href="#page1">Page 1</a></li>
+                    <li><a href="#page2">Page 2</a></li>
+                    <li><a href="#page3">Page 3</a></li>
+                  </ul>
+                </div><!-- /navbar -->
+          </div>
+            <!--  gamewon page content -->
+            <div data-role="content" data-theme='e'>
+                <p> I am on the 3rd page</p>
+                <p id="IDparmHere">change1</p>  <!-- hidden    a place to stash the user ID -->
+                <p> THe above is the PlayerID value passed from page 2</p>
+              
+            </div>
+              
+            <!--  gamewon page footer -->
+            <div data-role="footer" data-theme='b'>
+              <h1>Copyrigtht 2020 by Kurt Friedrich</h1>
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>
