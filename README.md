@@ -1,2 +1,0 @@
-# BlackJack
-Blackjack game
